@@ -1,0 +1,82 @@
+.logoContainer {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.logo {
+  max-width: 250px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.contactForm {
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contactForm label {
+  font-weight: 600;
+  color: #444;
+}
+
+.contactForm input,
+.contactForm textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  resize: vertical;
+}
+
+.contactForm input:focus,
+.contactForm textarea:focus {
+  border-color: #1db954;
+  outline: none;
+}
+
+.submitBtn {
+  background-color: #000;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submitBtn:hover {
+  background-color: #1db954;
+}
+
+.otherContacts {
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.otherContacts a {
+  color: #1db954;
+  font-weight: 600;
+}
+
+.otherContacts a:hover {
+  text-decoration: underline;
+}
+
+.thankYou {
+  text-align: center;
+  font-size: 1.3rem;
+  color: #1db954;
+  margin-bottom: 40px;
+}

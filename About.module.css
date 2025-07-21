@@ -1,0 +1,47 @@
+.logoContainer {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.logo {
+  max-width: 250px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+p {
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.5;
+}
+
+.highlight {
+  color: #0077ff;
+}
+
+.exploreMore {
+  max-width: 800px;
+  margin: 40px auto;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.exploreMore a {
+  color: #1db954;
+  font-weight: 600;
+  margin: 0 10px;
+}
+
+.exploreMore a:hover {
+  text-decoration: underline;
+}

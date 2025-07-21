@@ -1,0 +1,81 @@
+.logoContainer {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.logo {
+  max-width: 250px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.registrationForm {
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.registrationForm label {
+  font-weight: 600;
+  color: #444;
+}
+
+.registrationForm input,
+.registrationForm select,
+.registrationForm textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  resize: vertical;
+}
+
+.registrationForm input:focus,
+.registrationForm select:focus,
+.registrationForm textarea:focus {
+  border-color: #1db954;
+  outline: none;
+}
+
+.radioGroup,
+.checkboxGroup {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.radioGroup label,
+.checkboxGroup label {
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.submitBtn {
+  background-color: #000;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submitBtn:hover {
+  background-color: #1db954;
+}
+
+.thankYou {
+  text-align: center;
+  font-size: 1.3rem;
+  color: #1db954;
+  margin-bottom: 40px;
+}
